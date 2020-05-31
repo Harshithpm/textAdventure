@@ -1,8 +1,4 @@
-package com.hpm.textadventure;/*
-    Name: main.java.textadventure.Character
-    Created: 30/05/2020 , 11:04 PM
-    By: Harshith
-*/
+package com.hpm.textadventure;
 
 public class Character {
     int hp;

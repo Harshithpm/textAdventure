@@ -1,14 +1,4 @@
-package com.hpm.textadventure;/*
-    Name: main.java.textadventure.Item.java
-    Created: 30/05/2020 , 10:44 PM
-    By: Harshith
-*/
-
-enum ItemType {
-    ATTACK,     // Anything that deals damage
-    DEFENCE,    // Anything that protects from damage
-    MAGIC       // Anything that helps or supports anyone
-}
+package com.hpm.textadventure;
 
 // Carries data about every item in the game
 public class Item {
@@ -20,5 +10,11 @@ public class Item {
         this.name = name;
         this.durability = durability;
         this.itemType = itemType;
+    }
+
+    enum ItemType {
+        ATTACK,     // Anything that deals damage
+        DEFENCE,    // Anything that protects from damage
+        MAGIC       // Anything that helps or supports anyone
     }
 }
