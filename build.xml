@@ -1,0 +1,39 @@
+<?xml version = "1.0" ?>
+<project name="TextAdventure" default="build">
+    <property name="src.dir" value="src"/>
+    <property name="build.dir" value="out"/>
+    <property name="jar.dir" value="build"/>
+
+    <target name="info">
+        <echo>Name: Text Adventure</echo>
+        <echo>Version: 1.0.1</echo>
+        <echo>Author: Harshith</echo>
+    </target>
+
+    <target name="build" description="Compile source tree java files">
+        <mkdir dir="${build.dir}"/>
+
+        <javac destdir="${build.dir}" includeantruntime="false">
+            <src path="${src.dir}"/>
+        </javac>
+    </target>
+
+    <target name="clean" description="Clean output directory">
+        <delete>
+            <fileset dir = "${build.dir}">
+                <include name="**/*.class"/>
+            </fileset>
+        </delete>
+    </target>
+
+    <target name="jar" description="Creates a JAR file">
+        <jar destfile="${jar.dir}"
+             basedir="${build.dir}"
+             excludes="${build.dir}/test">
+
+            <manifest>
+                <attribute name="Main-Class" value="com.hpm.textadventure.Main"/>
+            </manifest>
+        </jar>
+    </target>
+</project>
