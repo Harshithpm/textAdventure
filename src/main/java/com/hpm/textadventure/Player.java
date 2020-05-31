@@ -1,32 +1,34 @@
-package main.java.com.hpm.textadventure;
+package com.hpm.textadventure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 /*
-    Name: Player.java
+    Name: main.java.textadventure.Player.java
     Created: 30/05/2020 , 10:38 PM
     By: Harshith
 */
 
-enum PlayerType {
-    WIZARD("Wizard"),
-    ROGUE("Rogue"),
-    KNIGHT("Knight");
-    private String typeName;
-
-    PlayerType(String typeName) {
-        this.typeName = typeName;
-    }
-
-    @Override
-    public String toString() {
-        return typeName;
-    }
-}
-
 // Carries data about player like HP, inventory, playerType, etc
 public class Player extends Character {
+
+    public enum PlayerType {
+        WIZARD("Wizard"),
+        ROGUE("Rogue"),
+        KNIGHT("Knight");
+        private final String typeName;
+
+        PlayerType(String typeName) {
+            this.typeName = typeName;
+        }
+
+        @Override
+        public String toString() {
+            return typeName;
+        }
+    }
+
+
     PlayerType playerType;
     ArrayList<Item> inventory = new ArrayList<>();
     ArrayList<HashMap<String, Integer>> stats = new ArrayList<>();
@@ -74,8 +76,8 @@ public class Player extends Character {
 
     public String printStats() {
         StringBuilder string = new StringBuilder();
-        for (int i = 0; i<stats.size(); i++) {
-            string.append(stats.get(i));
+        for (HashMap<String, Integer> stat : stats) {
+            string.append(stat);
             string.append(" ");
         }
         return string.toString();

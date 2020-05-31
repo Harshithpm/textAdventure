@@ -1,7 +1,5 @@
-package main.java.com.hpm.textadventure;
-
-/*
-    Name: Item.java
+package com.hpm.textadventure;/*
+    Name: main.java.textadventure.Item.java
     Created: 30/05/2020 , 10:44 PM
     By: Harshith
 */

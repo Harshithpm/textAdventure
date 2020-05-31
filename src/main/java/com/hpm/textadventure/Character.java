@@ -1,5 +1,5 @@
-package main.java.com.hpm.textadventure;/*
-    Name: Character
+package com.hpm.textadventure;/*
+    Name: main.java.textadventure.Character
     Created: 30/05/2020 , 11:04 PM
     By: Harshith
 */

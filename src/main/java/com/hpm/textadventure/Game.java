@@ -1,7 +1,5 @@
-package main.java.com.hpm.textadventure;
-
-/*
-    Name: Game.java
+package com.hpm.textadventure;/*
+    Name: main.java.textadventure.Game.java
     Created: 30/05/2020 , 10:56 PM
     By: Harshith
 */

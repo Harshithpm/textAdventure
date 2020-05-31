@@ -1,39 +1,36 @@
-<?xml version = "1.0" ?>
-<project name="TextAdventure" default="build">
-    <property name="src.dir" value="src"/>
-    <property name="build.dir" value="out"/>
-    <property name="jar.dir" value="build"/>
+<project name = "JunitTest" default = "test" basedir = ".">
+    <property name = "testdir" location = "test" />
+    <property name = "srcdir" location = "src" />
+    <property name = "full-compile" value = "true" />
 
-    <target name="info">
-        <echo>Name: Text Adventure</echo>
-        <echo>Version: 1.0.1</echo>
-        <echo>Author: Harshith</echo>
-    </target>
+    <path id = "classpath.base"/>
 
-    <target name="build" description="Compile source tree java files">
-        <mkdir dir="${build.dir}"/>
+    <path id = "classpath.test">
+        <pathelement location = "lib/junit-4.12.jar" />
+        <pathelement location = "${testdir}" />
+        <pathelement location = "com.hpm.textadventure" />
+        <path refid = "classpath.base" />
+    </path>
 
-        <javac destdir="${build.dir}" includeantruntime="false">
-            <src path="${src.dir}"/>
-        </javac>
-    </target>
-
-    <target name="clean" description="Clean output directory">
-        <delete>
-            <fileset dir = "${build.dir}">
-                <include name="**/*.class"/>
-            </fileset>
+    <target name = "clean" >
+        <delete verbose = "${full-compile}">
+            <fileset dir = "${testdir}" includes = "**/*.class" />
         </delete>
     </target>
 
-    <target name="jar" description="Creates a JAR file">
-        <jar destfile="${jar.dir}"
-             basedir="${build.dir}"
-             excludes="${build.dir}/test">
-
-            <manifest>
-                <attribute name="Main-Class" value="com.hpm.textadventure.Main"/>
-            </manifest>
-        </jar>
+    <target name = "compile" depends = "clean">
+        <javac srcdir = "${srcdir}" destdir = "${testdir}"
+               verbose = "${full-compile}">
+            <classpath refid = "classpath.test"/>
+        </javac>
     </target>
+
+    <target name = "test" depends = "compile">
+        <junit>
+            <classpath refid = "classpath.test" />
+            <formatter type = "brief" usefile = "false" />
+            <test name = "com.hpm.textadventure.PlayerUnitTest" />
+        </junit>
+    </target>
+
 </project>

@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fc0822-c433-42d5-b215-4c01e8480100" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Character.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hpm/java/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Room.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/textAdventure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/textAdventure.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
@@ -48,11 +55,26 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hpm.textadventure" />
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\harsh\Documents\Harshith\mycode\Java\textAdventure\src" />
+      <recent name="C:\Users\harsh\Documents\Harshith\mycode\Java\textAdventure\test" />
+      <recent name="C:\Users\harsh\Documents\Harshith\mycode\Java\textAdventure\lib" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.hpm.textadventure.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.hpm.textadventure.Main" />
       <module name="textAdventure" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -74,42 +96,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590920717723">
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590954888882">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1590920717723" />
+    <state x="96" y="16" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.720@0.0.1280.720" timestamp="1590954888882" />
     <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1590869137941">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1590869137941" />
-    <state x="363" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590917669118">
+    <state x="363" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1590946737753">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="363" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.720@0.0.1280.720" timestamp="1590917669118" />
+    <state x="363" y="9" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.720@0.0.1280.720" timestamp="1590946737753" />
     <state x="321" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590919311278">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="321" y="97" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.720@0.0.1280.720" timestamp="1590919311278" />
-    <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1590918811550">
+    <state x="424" y="225" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590950492298">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="421" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1590918811550" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1590926218198">
+    <state x="424" y="225" width="432" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.720@0.0.1280.720" timestamp="1590950492298" />
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590939217180">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590926218198" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1590926218198">
+    <state x="371" y="107" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.720@0.0.1280.720" timestamp="1590939217180" />
+    <state x="421" y="102" key="FileChooserDialogImpl" timestamp="1590939578584">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590926218198" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1590926218198">
+    <state x="421" y="102" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1590939578584" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1590954979376">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590926218198" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1590926218198">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1590954979376" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1590954979375">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590926218198" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1590954979375" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1590954979375">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1590954979375" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1590954979375">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1590954979375" />
     <state x="192" y="0" key="SettingsEditor" timestamp="1590922259266">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -118,5 +148,17 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="314" y="185" key="com.intellij.ide.util.TipDialog/0.0.1280.720@0.0.1280.720" timestamp="1590919533517" />
+    <state x="376" y="252" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1590939202972">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="376" y="252" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.720@0.0.1280.720" timestamp="1590939202972" />
+    <state x="91" y="0" key="new project wizard" timestamp="1590945269276">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="91" y="0" key="new project wizard/0.0.1280.720@0.0.1280.720" timestamp="1590945269276" />
+    <state x="297" y="161" width="672" height="677" key="run.anything.popup" timestamp="1590949703922">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="297" y="161" width="672" height="677" key="run.anything.popup/0.0.1280.720@0.0.1280.720" timestamp="1590949703922" />
   </component>
 </project>

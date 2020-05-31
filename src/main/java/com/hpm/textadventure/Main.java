@@ -1,4 +1,4 @@
-package main.java.com.hpm.textadventure;
+package com.hpm.textadventure;
 
 import java.util.Scanner;
 
@@ -14,18 +14,18 @@ public class Main {
         String name = in.nextLine();
         System.out.print("Describe your character: ");
         String description = in.nextLine();
-        System.out.print("Player Type (Wizard, Rogue, or Knight): ");
+        System.out.print("main.java.textadventure.Player Type (Wizard, Rogue, or Knight): ");
         String playerType = in.nextLine();
-        PlayerType mainPlayerType = null;
+        Player.PlayerType mainPlayerType = null;
         switch (playerType.toLowerCase()) {
             case "wizard":
-                mainPlayerType = PlayerType.WIZARD;
+                mainPlayerType = Player.PlayerType.WIZARD;
                 break;
             case "rogue":
-                mainPlayerType = PlayerType.ROGUE;
+                mainPlayerType = Player.PlayerType.ROGUE;
                 break;
             case "knight":
-                mainPlayerType = PlayerType.KNIGHT;
+                mainPlayerType = Player.PlayerType.KNIGHT;
                 break;
             default:
                 System.out.println("Invalid Type!");
