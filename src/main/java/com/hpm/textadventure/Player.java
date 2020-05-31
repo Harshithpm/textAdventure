@@ -1,4 +1,4 @@
-package com.hpm.java;
+package main.java.com.hpm.textadventure;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -10,9 +10,19 @@ import java.util.HashMap;
 */
 
 enum PlayerType {
-    WIZARD,
-    ROGUE,
-    KNIGHT
+    WIZARD("Wizard"),
+    ROGUE("Rogue"),
+    KNIGHT("Knight");
+    private String typeName;
+
+    PlayerType(String typeName) {
+        this.typeName = typeName;
+    }
+
+    @Override
+    public String toString() {
+        return typeName;
+    }
 }
 
 // Carries data about player like HP, inventory, playerType, etc
@@ -55,5 +65,19 @@ public class Player extends Character {
             temp.put("Magic", 25);
             stats.add(temp);
         }
+    }
+
+    private void Die() {
+        System.out.println("You Die!");
+        System.exit(0);
+    }
+
+    public String printStats() {
+        StringBuilder string = new StringBuilder();
+        for (int i = 0; i<stats.size(); i++) {
+            string.append(stats.get(i));
+            string.append(" ");
+        }
+        return string.toString();
     }
 }

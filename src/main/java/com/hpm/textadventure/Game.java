@@ -1,4 +1,4 @@
-package com.hpm.java;
+package main.java.com.hpm.textadventure;
 
 /*
     Name: Game.java

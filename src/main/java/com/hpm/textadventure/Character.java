@@ -1,4 +1,4 @@
-package com.hpm.java;/*
+package main.java.com.hpm.textadventure;/*
     Name: Character
     Created: 30/05/2020 , 11:04 PM
     By: Harshith
