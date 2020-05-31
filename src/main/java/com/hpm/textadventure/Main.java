@@ -2,6 +2,9 @@ package com.hpm.textadventure;
 
 import java.util.Scanner;
 
+/**
+ * Main class
+ */
 public class Main {
 
     static Player player;

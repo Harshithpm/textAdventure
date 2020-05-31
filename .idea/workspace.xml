@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fc0822-c433-42d5-b215-4c01e8480100" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hpm/textadventure/Room.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
