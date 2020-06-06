@@ -17,7 +17,7 @@ public class Main {
         String name = in.nextLine();
         System.out.print("Describe your character: ");
         String description = in.nextLine();
-        System.out.print("main.java.textadventure.Player Type (Wizard, Rogue, or Knight): ");
+        System.out.print("Player Type (Wizard, Rogue, or Knight): ");
         String playerType = in.nextLine();
         Player.PlayerType mainPlayerType = null;
         switch (playerType.toLowerCase()) {
@@ -40,5 +40,37 @@ public class Main {
         System.out.println(player.name + " " + player.description + " " + player.playerType.toString());
         System.out.println("Your health is " + player.hp);
         System.out.println("Your stats are " + player.printStats());
+
+        System.out.println("You are stuck in a room, cold and dark.\nYou don't have any memories about yourself other than your name, " + player.name + ". You stand up.");
+        boolean answer = false;
+        String direction;
+        while (!answer) {
+            System.out.print("Where do you go? (North, South, East, West): ");
+            direction = in.nextLine();
+
+            switch (direction.toLowerCase()){
+                case "north":
+                    System.out.println("You find a door. Locked.");
+                    break;
+
+                case "south":
+                    System.out.println("You find a window. Looking out all you see is a dark fog creeping in.");
+                    break;
+
+                case "west":
+                    System.out.println("A door. When opened, you see another huge room. Looking around you see a man tied up to the wall by his arms.");
+                    direction = "west";
+                    answer = true;
+                    break;
+
+                case "east":
+                    System.out.println("");
+                    direction = "east";
+                    answer = true;
+                    break;
+            }
+        }
+
+        System.exit(0);
     }
 }
